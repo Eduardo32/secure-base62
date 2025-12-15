@@ -25,7 +25,9 @@ SecureBase62 é uma biblioteca Java para codificação e decodificação Base62 
 
 ### Gradle
 
+```groovy
 implementation 'com.pauloeduardocosta:securebase62:1.0.0'
+```
 
 ## Configuração
 
@@ -35,11 +37,15 @@ A biblioteca requer uma chave secreta para funcionar. Você pode configurá-la d
 
 Crie um arquivo `application.properties` (ou qualquer outro nome) no classpath:
 
+```properties
 securebase62.secret.key=sua_chave_secreta_aqui
+```
 
 Então carregue a configuração:
 
+```java
 SecureBase62 encoder = new SecureBase62("application.properties", true);
+```
 
 ### 2. Configuração via propriedade do sistema
 

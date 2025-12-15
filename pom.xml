@@ -33,7 +33,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>maven.pkg.github.com</url>
+            <url>https://maven.pkg.github.com/Eduardo32/secure-base62</url>
         </repository>
     </distributionManagement>
 
